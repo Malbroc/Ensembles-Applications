@@ -1,0 +1,200 @@
+------------TEST GENERAL ENSEMBLES NON-TRIES-----------
+
+Ensemble :
+Elément numéro 0 : 9
+Elément numéro 1 : -1
+Elément numéro 2 : 3
+Elément numéro 3 : 4
+Elément numéro 4 : 0
+
+Cardinal de l'ensemble : 5
+8 appartient à l'ensemble : faux
+9 appartient à l'ensemble : vrai
+Maximum de l'ensemble : 9
+Copie :
+Elément numéro 0 : 9
+Elément numéro 1 : -1
+Elément numéro 2 : 3
+Elément numéro 3 : 4
+Elément numéro 4 : 0
+
+Egalité des ensembles ? VRAI
+Ensemble après suppression du minimum :
+Elément numéro 0 : 9
+Elément numéro 1 : 3
+Elément numéro 2 : 4
+Elément numéro 3 : 0
+
+Egalité des ensembles ? FAUX
+
+------------TEST UNION ENSEMBLES NON-TRIES-----------
+
+Ensemble e :
+Elément numéro 0 : 1
+Elément numéro 1 : 3
+Elément numéro 2 : 5
+Elément numéro 3 : 6
+
+Ensemble f :
+Elément numéro 0 : 4
+Elément numéro 1 : 6
+Elément numéro 2 : 8
+Elément numéro 3 : 9
+
+Union de e et f :
+Elément numéro 0 : 1
+Elément numéro 1 : 3
+Elément numéro 2 : 5
+Elément numéro 3 : 6
+Elément numéro 4 : 4
+Elément numéro 5 : 8
+Elément numéro 6 : 9
+
+------------TEST INTERSECTION ENSEMBLES NON-TRIES-----------
+
+Ensemble e :
+Elément numéro 0 : 1
+Elément numéro 1 : 3
+Elément numéro 2 : 5
+Elément numéro 3 : 6
+
+Ensemble f :
+Elément numéro 0 : 4
+Elément numéro 1 : 6
+Elément numéro 2 : 8
+Elément numéro 3 : 9
+
+Intersection de e et f :
+Elément numéro 0 : 6
+
+------------TEST GENERAL ENSEMBLES TRIES-----------
+
+Ensemble :
+Elément numéro 0 : -1
+Elément numéro 1 : 0
+Elément numéro 2 : 3
+Elément numéro 3 : 4
+Elément numéro 4 : 9
+
+Cardinal de l'ensemble : 5
+8 appartient à l'ensemble : faux
+9 appartient à l'ensemble : vrai
+Maximum de l'ensemble : -1
+Copie :
+Elément numéro 0 : -1
+Elément numéro 1 : 0
+Elément numéro 2 : 3
+Elément numéro 3 : 4
+Elément numéro 4 : 9
+
+Egalité des ensembles ? VRAI
+Ensemble après suppression du minimum :
+Elément numéro 0 : 0
+Elément numéro 1 : 3
+Elément numéro 2 : 4
+Elément numéro 3 : 9
+
+Egalité des ensembles ? FAUX
+
+------------TEST UNION ENSEMBLES TRIES-----------
+
+Ensemble e :
+Elément numéro 0 : 1
+Elément numéro 1 : 3
+Elément numéro 2 : 5
+Elément numéro 3 : 6
+
+Ensemble f :
+Elément numéro 0 : 4
+Elément numéro 1 : 6
+Elément numéro 2 : 8
+Elément numéro 3 : 9
+
+Union de e et f :
+Elément numéro 0 : 1
+Elément numéro 1 : 3
+Elément numéro 2 : 4
+Elément numéro 3 : 5
+Elément numéro 4 : 6
+Elément numéro 5 : 8
+Elément numéro 6 : 9
+
+------------TEST INTERSECTION ENSEMBLES TRIES-----------
+
+Ensemble e :
+Elément numéro 0 : 1
+Elément numéro 1 : 3
+Elément numéro 2 : 5
+Elément numéro 3 : 6
+
+Ensemble f :
+Elément numéro 0 : 4
+Elément numéro 1 : 6
+Elément numéro 2 : 8
+Elément numéro 3 : 9
+
+Intersection de e et f :
+Elément numéro 0 : 6
+
+------------TEST GENERAL APPLICATIONS-----------
+
+ensemble de depart
+Elément numéro 0 : 1
+Elément numéro 1 : 3
+Elément numéro 2 : 5
+Elément numéro 3 : 6
+
+ensemble d'arrivee
+Elément numéro 0 : 4
+Elément numéro 1 : 6
+Elément numéro 2 : 8
+Elément numéro 3 : 9
+
+Image de 3 : 9
+Image de 6 : 9
+Antécédents de 9 : 6 3
+
+------------TEST COMPOSITION APPLICATIONS-----------
+
+ensemble de départ de G
+Elément numéro 0 : 0
+Elément numéro 1 : 1
+Elément numéro 2 : 4
+Elément numéro 3 : 9
+Elément numéro 4 : 16
+
+ensemble d'arrivée de G
+Elément numéro 0 : 1
+Elément numéro 1 : 2
+Elément numéro 2 : 3
+Elément numéro 3 : 4
+
+ensemble de départ de F
+Elément numéro 0 : 1
+Elément numéro 1 : 2
+Elément numéro 2 : 3
+Elément numéro 3 : 4
+
+ensemble d'arrivée de F
+Elément numéro 0 : 2
+Elément numéro 1 : 3
+Elément numéro 2 : 4
+Elément numéro 3 : 6
+
+F(1) = 2
+2 n'as pas d'image par F.
+F(3) = 6
+4 n'as pas d'image par F.
+
+0 n'as pas d'image par G.
+G(1) = 1
+G(4) = 2
+G(9) = 3
+G(16) = 4
+
+0 n'as pas d'image par FoG.
+F(G(1)) = 2
+4 n'as pas d'image par FoG.
+F(G(9)) = 6
+16 n'as pas d'image par FoG.
+
